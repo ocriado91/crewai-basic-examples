@@ -99,11 +99,6 @@ def main():
         placeholder="e.g., The Future of Quantum Computing",
         help="Be specific about what you want to learn about",
     )
-    verbose = st.checkbox(
-        "Show detailed progress",
-        value=False,
-        help="Display the step-by-step progress of the article generation",
-    )
 
     # Generation section
     if st.button("🚀 Generate Article", type="primary", use_container_width=True):
@@ -119,7 +114,7 @@ def main():
 
         try:
             # Initialize the crew
-            crew = ResearchAndWriterCrew(verbose=verbose)
+            crew = ResearchAndWriterCrew()
 
             # Show progress
             with st.spinner("🤖 Researching and writing your article..."):
@@ -146,8 +141,6 @@ def main():
 
         except Exception as e:
             st.error(f"❌ An error occurred: {str(e)}")
-            if verbose:
-                st.exception(e)
 
 
 if __name__ == "__main__":
