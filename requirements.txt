@@ -1,0 +1,4 @@
+crewai==0.98.0
+crewai_tools==0.32.1
+langchain_community==0.0.29
+langchain_groq==0.1.5
