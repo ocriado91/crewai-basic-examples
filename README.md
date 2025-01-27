@@ -1,7 +1,7 @@
 # crewai-basic-examples
 Basic examples developed into Multi AI Agent Systems with crewAI Deeplearning Course
 
-## Research and Writer Agents ([https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/))
+## Research and Writer Agents ([https://research-write-article-labs14.streamlit.app/](https://research-write-article-labs14.streamlit.app/))
 
 ![](pics/png/research-write-crew.png)
 
