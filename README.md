@@ -7,7 +7,7 @@ Basic examples developed into Multi AI Agent Systems with crewAI Deeplearning Co
 
 Streamlit app: [https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/)
 
-### :compute: Local setup
+### :computer: Local setup
 
 <details>
 <summary>Click to expand</summary>
