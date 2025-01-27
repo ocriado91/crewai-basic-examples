@@ -3,3 +3,4 @@ crewai_tools
 langchain_community
 langchain_groq
 streamlit
+pysqlite3
