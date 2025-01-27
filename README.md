@@ -2,6 +2,7 @@
 Basic examples developed into Multi AI Agent Systems with crewAI Deeplearning Course
 
 ## Research and Writer Agents
+Demo: [https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/)
 
 ![](pics/png/research-write-crew.png)
 
