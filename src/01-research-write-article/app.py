@@ -28,7 +28,6 @@ def configure_environment():
         # Groq API Key
         groq_api_key = st.text_input(
             "Groq API key *",
-            value=st.session_state.groq_api_key,
             type="password",
             help="Enter your Groq API Key. Get one at console.groq.com",
             placeholder="INSERT YOUR GROQ API KEY",
