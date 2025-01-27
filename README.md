@@ -1,24 +1,7 @@
 # crewai-basic-examples
 Basic examples developed into Multi AI Agent Systems with crewAI Deeplearning Course
 
-## Research and Writer Agents
-
-### :space_invader: Demo
-
-Streamlit app: [https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/)
-
-### :computer: Local setup
-
-<details>
-<summary>Click to expand</summary>
-To install and run this project locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/crewai-basic-examples.git`
-2. Navigate to the project directory: `cd crewai-basic-examples`
-3. Install the required packages: `pip install -r requirements.txt`
-4. Set up your environment variables (e.g., GROQ_API_KEY, MODEL_NAME, MODEL_TEMPERATURE) in a new environment file: `.env`
-5. Run the application: `python main.py`
-</details>
+## Research and Writer Agents ([https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/))
 
 ![](pics/png/research-write-crew.png)
 
@@ -34,4 +17,4 @@ Agent in charge of research the topic and creates a comprehensive content plan
 Creates the actual article based on the planner's outline.
 
 ### 3. Editor Agent
-Reviews and refnes the final content.
+Reviews and refines the final content.
