@@ -2,9 +2,15 @@
 Basic examples developed into Multi AI Agent Systems with crewAI Deeplearning Course
 
 ## Research and Writer Agents
-Demo: [https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/)
+
+### :space_invader: Demo
+
+Streamlit app: [https://crewai-basic-examples-labs14.streamlit.app/](https://crewai-basic-examples-labs14.streamlit.app/)
+
+### :compute: Local setup
+
 <details>
-<summary>Local Installation Instructions</summary>
+<summary>Click to expand</summary>
 To install and run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/crewai-basic-examples.git`
