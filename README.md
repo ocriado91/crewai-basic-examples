@@ -18,3 +18,20 @@ Creates the actual article based on the planner's outline.
 
 ### 3. Editor Agent
 Reviews and refines the final content.
+
+## Customer Support Agents ([https://customer-support-labs14.streamlit.app/](https://customer-support-labs14.streamlit.app/))
+
+![](pics/png/02-customer-support.drawio.png)
+
+In this example, we implement a basic Multi-Agent system for customer support using two features:
+* __Delegation__: An agent can delegate work to another agent.
+* __Tools__: An agent can use a [predefined tool](https://docs.crewai.com/concepts/tools) or [build your custom tool](https://docs.crewai.com/how-to/create-custom-tools) to perform various actions.
+
+The system consists of two specialized AI agents working together:
+
+### 1. Support Agent
+
+The agent is responsible for providing a complete response to customer requests based on data extracted from the [Creating a Crew and Kick It Off](https://docs.crewai.com/how-to/Creating-a-Crew-and-kick-it-off/) website using the [ScrapeWebsiteTool](https://docs.crewai.com/tools/scrapewebsitetool).
+
+### 2. Support Quality Assurance Agent
+This agent reviews the responses given by the Support Agent according to its guidelines. If the response provided by the **Support Agent** does not meet the expected quality, this agent will delegate the action back to the **Support Agent**.
