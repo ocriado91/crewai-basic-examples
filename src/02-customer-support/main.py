@@ -37,5 +37,8 @@ if __name__ == "__main__":
         "inquiry": args.inquiry,
     }
 
-    # Instatiate crew
-    CustomerSupport(args.verbose).run(inputs=inputs)
+    try:
+        # Instatiate crew
+        CustomerSupport(args.verbose).run(inputs=inputs)
+    except KeyboardInterrupt:
+        print("CTRL + C pressed. Ending the execution...")

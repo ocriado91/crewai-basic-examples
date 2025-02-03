@@ -151,7 +151,7 @@ def main():
             with tab2:
                 st.download_button(
                     label="Download Response as Markdown",
-                    data=result,
+                    data=result.raw,
                     file_name=f"support_response_{customer.lower().replace(' ', '_')}.md",
                     mime="text/markdown",
                     use_container_width=True,
