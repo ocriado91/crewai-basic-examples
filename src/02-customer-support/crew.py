@@ -37,7 +37,7 @@ class CustomerSupport:
                 " and make no assumptions."
             ),
             allow_delegation=False,
-            verbose=True
+            verbose=self.verbose,
         )
 
         # Support QA Agent -> Review the response given by Support Agent.
@@ -58,7 +58,7 @@ class CustomerSupport:
                 "is providing full"
                 "complete answers, and make no assumptions."
             ),
-            verbose=True,
+            verbose=self.verbose,
         )
 
         # Define tools
